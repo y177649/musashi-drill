@@ -1,0 +1,17 @@
+id: aeronautical-special-radio
+title: 航空特殊無線技士
+subjects:
+  - id: hoki
+    title: 法規
+    exam_questions: 12
+    pass_threshold: 8
+  - id: kogaku
+    title: 無線工学
+    exam_questions: 12
+    pass_threshold: 8
+session:
+  set_size: 50 # 1セットの目安上限。問題数がこれ未満なら全問1セット
+  time_limit_min: 30
+phases:
+  brute_force_laps: 2 # 何周までは全問モードか
+  graduate_streak: 3 # 迷わず正解が何連続で重点対象から外れるか

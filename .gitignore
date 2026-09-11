@@ -1,0 +1,7 @@
+node_modules/
+dist/
+src/data/generated/
+*.local
+
+# 著作物である実際の過去問PDF・抽出前データは絶対にコミットしない
+_source/
